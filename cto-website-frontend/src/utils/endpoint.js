@@ -24,7 +24,7 @@ const ENDPOINTS = {
   GUIDELINE_LIST: "/guideline/list",
   GUIDELINE_UPLOAD: "/guideline/upload",
   GUIDELINE_DELETE: (id) => `/guideline/${id}/delete`,
-  GUIDELINE_VIEW: (id) => `http://localhost:8000/api/guideline/${id}/view`,
+  GUIDELINE_VIEW: (id) => `/guideline/${id}/view`,
 
   REQUEST_SUMMARY_ADMIN: (selectedYear) => `/dashboard/request-summary?year=${selectedYear}`,
   REQUEST_SUMMARY_INTERNAL: (selectedYear) => `/dashboard/request-summary/my?year=${selectedYear}`,
